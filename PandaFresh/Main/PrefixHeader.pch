@@ -1,0 +1,65 @@
+//
+//  PrefixHeader.pch
+//  PandaFresh
+//
+//  Created by 李云龙 on 2018/1/31.
+//  Copyright © 2018年 李云龙. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#pragma mark - 三方库
+
+//网络请求
+#import <AFNetworking/AFNetworking.h>
+//猿题库封装AFN
+#import <YTKNetwork/YTKNetwork.h>
+//扩展类
+#import <BFKit/BFKit.h>
+//底部Tab
+#import <CYLTabBarController/CYLTabBarController.h>
+//键盘管理
+#import <IQKeyboardManager/IQKeyboardManager.h>
+//适配
+#import <Masonry/Masonry.h>
+//菊花
+#import <MBProgressHUD/MBProgressHUD.h>
+//下拉刷新
+#import <MJRefresh/MJRefresh.h>
+//搜索
+#import <PYSearch/PYSearch.h>
+//轮播
+#import <SDCycleScrollView/SDCycleScrollView.h>
+//网络图片加载
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import <SDWebImage/UIImage+GIF.h>
+//导航栏管理
+#import <WRNavigationBar/WRNavigationBar.h>
+#import <WRNavigationBar/WRCustomNavigationBar.h>
+//启动页SDK
+#import <XHLaunchAd/XHLaunchAd.h>
+//圆角
+#import <ZYCornerRadius/UIImageView+CornerRadius.h>
+//适配
+#import <SDAutoLayout/SDAutoLayout.h>
+//YYKit
+#import <YYModel/YYModel.h>
+//高德SDK
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <AMapLocationKit/AMapLocationKit.h>
+
+#pragma mark - 宏文件
+
+#import "FontColor.h"
+#import "Macros.h"
+
+#pragma mark - 扩展类
+
+#import "UIViewController+BarButton.h"
+
+#endif /* PrefixHeader_pch */
